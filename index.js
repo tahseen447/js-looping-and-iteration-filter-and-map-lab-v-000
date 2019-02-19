@@ -23,7 +23,11 @@ function exactMatch(drivers, match) {
 }
 
 function exactMatchToList(drivers, match) {
+<<<<<<< HEAD
   return exactMatch(drivers, match).map(function(item){
+=======
+  return exactMatch(drivers, map).map(function(item){
+>>>>>>> 8d95ba97c62a1621d61e286dc1b2cc0298d0c62c
     return item.name;
   });
 }
